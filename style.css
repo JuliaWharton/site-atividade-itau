@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(31, 31, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    width: 90%;
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+header p{
+    width: 90%;
+    font-size: 35pt;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(127, 127, 211);
+}
+#login{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 50% ;
+    height: 70%;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    
+}
+#login div:nth-child(2){
+    display: flex;
+    align-items: center;
+    width: 80%;
+    font-size: 20pt;
+}
+#login div:nth-child(2) input{
+    height: 25px;
+    width: 60%;
+    border: 1px solid;
+}
+#login div:nth-child(3){
+    display: flex;
+    align-items: center;
+    width: 80%;
+    font-size: 20pt;
+}
+#login div:nth-child(3) input{
+    height: 25px;
+    width: 60%;
+    border: 1px solid;
+}
+#login a{
+    text-decoration: none;
+    text-emphasis: none;
+    width: 100%;
+    
+    
+}
+#login p:nth-child(6){
+    font-size: 20pt;
+}
+#login a button{
+    width: 30%;
+    height: 30px;
+    font-size: 18pt;
+    align-self: center;
+}
+#cadastro{
+    width: 40%;
+    height: 400px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#cadastro div:nth-child(5){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
